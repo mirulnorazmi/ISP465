@@ -1,6 +1,7 @@
 <div id="top"></div>
 
-# ISP465 <img src='https://img.shields.io/badge/ISP465%3AProject-M3CS2662C%20contributor-blue' /> <img src='https://img.shields.io/github/license/mirulnorazmi/ISP465'/>[![Netlify Status](https://api.netlify.com/api/v1/badges/24045ed1-e4e1-4605-8889-0bb3d2126d4f/deploy-status)](https://app.netlify.com/sites/midnightpc/deploys)
+# ISP465 
+<img src='https://img.shields.io/badge/ISP465-project-blue' /> <img src='https://img.shields.io/github/license/mirulnorazmi/ISP465'/> [![Netlify Status](https://api.netlify.com/api/v1/badges/24045ed1-e4e1-4605-8889-0bb3d2126d4f/deploy-status)](https://app.netlify.com/sites/midnightpc/deploys)
 
 Demo website click [here...](https://midnightpc.netlify.app/)
 
