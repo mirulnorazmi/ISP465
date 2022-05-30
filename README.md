@@ -2,6 +2,8 @@
 
 # ISP465 <img src='https://img.shields.io/badge/ISP465%3AProject-M3CS2662C%20contributor-blue' /> <img src='https://img.shields.io/github/license/mirulnorazmi/ISP465'/>
 
+Demo website click [here...](https://midnightpc.netlify.app/)
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -31,6 +33,7 @@
 ## About The Project
 
 Project assignment for ISP465: Introduction to Front End Web Development, this is a group project consist 5 member to create website business called Midnight PC. It is a store that sells PC components such as CPU processors, graphic cards, motherboards, power supply unit, etc. Midnight PC Sdn Bhd were founded and established in 1999, the store used to deal with repairs and maintenance which helped the company be put on the map but now mostly deal with selling PC components. Since then the company has entered the elite PC market in a world of fast-paced, throw-away tech, the company has no need to do PC repairs and maintenance as their main business. The simple idea of giving the customers an option to buy cheaper or the alternative of finding hard to find PC components to fit their own needs as it helps in growing the already huge PC building community gives the company the satisfaction of doing business. The main mission of the company is always to use this business to inspire and aspire everyone to move forward with technology and innovative products, they also hope to achieve highest customer satisfaction and to continue broadening the range of products that provide value to customers. The company always values the quality of the products as well as how they treat the customers because the idea of being honest, humble, simple, and nimble has given them so much success within the company as well as their front line, it has become their daily mantra.
+
 <p align="right">(<a href="#top">back to top</a>)
 
 ### Built With
@@ -43,6 +46,7 @@ This section should list any major frameworks/libraries for project.
 * [JS](https://www.w3schools.com/js/) `
 🕒`
 * [JQuery](https://www.w3schools.com/jquery/) `🕒`
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributing
@@ -50,6 +54,7 @@ This section should list any major frameworks/libraries for project.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
