@@ -27,12 +27,19 @@ a.nav-link {
   text-transform: uppercase;
   font-size: 14px;
 }
-.navbar-toggler{
+.navbar-toggler {
   color: rgb(52, 129, 191, 0.9);
   border: 1px solid #3481bf;
 }
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   fill: #3481bf;
+}
+/* Overrides class BS */
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: center !important;
+  }
 }
 
 /* Medium devices (desktops, 992px and down) */
