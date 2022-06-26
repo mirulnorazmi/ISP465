@@ -64,11 +64,22 @@ a.nav-link {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
-  text-shadow: 3  px 3px black;
+  text-shadow: 3px 3px black;
 }
 
 /* ------ End of Index ------ */
 
 /* Footer */
+.container-footer{
+  padding: 5px 0px;
+  background-color: #696969;
+}
+
+.container-footer > p{
+  color:#28db89;
+  font-size: 12px;
+  margin: 0px;
+  text-align: center;
+}
 
 /* ------ End of Footer ------ */
