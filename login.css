@@ -1,7 +1,7 @@
 body{
     margin:0;
     color:black;
-    background:#c8c8c8;
+    background:white;
   }
   *,:after,:before{box-sizing:border-box}
   .clearfix:after,.clearfix:before{content:'';display:table}
