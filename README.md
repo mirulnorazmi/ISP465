@@ -2,7 +2,7 @@
 
 # ISP465 
 <img src='https://img.shields.io/badge/ISP465-project-blue' /> <img src='https://img.shields.io/badge/-MidnightPc-4F42B5'/> <img src='https://img.shields.io/github/license/mirulnorazmi/ISP465'/> <a href="https://github.com/mirulnorazmi/ISP465/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/mirulnorazmi/ISP465"></a> <a href="https://github.com/mirulnorazmi/ISP465/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/mirulnorazmi/ISP465"></a> <a href="https://github.com/mirulnorazmi/ISP465/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/mirulnorazmi/ISP465"></a> [![Netlify Status](https://api.netlify.com/api/v1/badges/24045ed1-e4e1-4605-8889-0bb3d2126d4f/deploy-status)](https://midnightpc.netlify.app/)
-
+<a href="http://example.com" target="_blank">http://example.com</a>
 Demo website click <a href="https://midnightpc.netlify.app/" target="_blank">here...</a>
 
 <!-- TABLE OF CONTENTS -->
