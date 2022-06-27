@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,102 +17,125 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/login.css" />
-</head>
-<body>
-  <header class="header sticky-top">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container" style="width: 100%">
-        <a href="index.html"
-          ><img src="./img/logo-text.png" width="80" class="logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="bi bi-list"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- Page link -->
-          <ul
-            class="navbar-nav d-flex justify-content-center"
-            style="width: 100%"
+  </head>
+  <body>
+    <header class="header sticky-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container" style="width: 100%">
+          <a href="index.html"
+            ><img src="./img/logo-text.png" width="80" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <li class="nav-item p-2">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item p-2 d-lg-none">
-              <a class="nav-link active" href="./login.html">Login</a>
-            </li>
-          </ul>
-          <a class="nav-link" href="./login.html"> <i class="bi bi-person-fill"></i></a>
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Page link -->
+            <ul
+              class="navbar-nav d-flex justify-content-center"
+              style="width: 100%"
+            >
+              <li class="nav-item p-2">
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="./products.html">Products</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item p-2 d-lg-none">
+                <a class="nav-link active" href="./login.html">Login</a>
+              </li>
+            </ul>
+            <a class="nav-link" href="./login.html">
+              <i class="bi bi-person-fill"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="i-x-center i-y-center d-100">
+        <div class="login-wrap">
+          <div class="login-html">
+            <input
+              id="tab-1"
+              type="radio"
+              name="tab"
+              class="sign-in"
+              checked
+            /><label for="tab-1" class="tab">Sign In</label>
+            <input id="tab-2" type="radio" name="tab" class="sign-up" />
+            <label for="tab-2" class="tab"> Sign Up </label>
+            <div class="login-form">
+              <div class="sign-in-htm">
+                  <div class="group">
+                  <label for="user" class="label">Username</label>
+                  <input id="user" type="text" class="input">
+                  </div>
+                  <div class="group">
+                  <label for="pass" class="label">Password</label>
+                  <input id="pass" type="password" class="input" data-type="password">
+                  </div>
+                  <div class="group">
+                  <input id="check" type="checkbox" class="check" checked>
+                  <label for="check"><span class="icon"></span> Keep me Signed in</label>
+                  </div>
+                  <div class="group">
+                  <input type="submit" class="button" value="Sign In">
+                  </div>
+                  <div class="hr"></div>
+                  <div class="foot-lnk">
+                  <a href="#forgot">Forgot Password?</a>
+                  </div>
+              </div>
+              <div class="sign-up-htm">
+                  <div class="group">
+                  <label for="user" class="label">Username</label>
+                  <input id="user" type="text" class="input">
+                  </div>
+                  <div class="group">
+                  <label for="pass" class="label">Password</label>
+                  <input id="pass" type="password" class="input" data-type="password">
+                  </div>
+                  <div class="group">
+                  <label for="pass" class="label">Repeat Password</label>
+                  <input id="pass" type="password" class="input" data-type="password">
+                  </div>
+                  <div class="group">
+                  <label for="pass" class="label">Email Address</label>
+                  <input id="pass" type="text" class="input">
+                  </div>
+                  <div class="group">
+                  <input type="submit" class="button" value="Sign Up">
+                  </div>
+                  <div class="hr"></div>
+                  <div class="foot-lnk">
+                <label for="tab-1">Already Member?</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-    <div class="login-wrap">
-    <div class="login-html">
-    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
-    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
-    <div class="login-form">
-        <div class="sign-in-htm">
-            <div class="group">
-            <label for="user" class="label">Username</label>
-            <input id="user" type="text" class="input">
-            </div>
-            <div class="group">
-            <label for="pass" class="label">Password</label>
-            <input id="pass" type="password" class="input" data-type="password">
-            </div>
-            <div class="group">
-            <input id="check" type="checkbox" class="check" checked>
-            <label for="check"><span class="icon"></span> Keep me Signed in</label>
-            </div>
-            <div class="group">
-            <input type="submit" class="button" value="Sign In">
-            </div>
-        </div>
-        <div class="sign-up-htm">
-            <div class="group">
-            <label for="user" class="label">Username</label>
-            <input id="user" type="text" class="input">
-            </div>
-            <div class="group">
-            <label for="pass" class="label">Password</label>
-            <input id="pass" type="password" class="input" data-type="password">
-            </div>
-            <div class="group">
-            <label for="pass" class="label">Repeat Password</label>
-            <input id="pass" type="password" class="input" data-type="password">
-            </div>
-            <div class="group">
-            <label for="pass" class="label">Email Address</label>
-            <input id="pass" type="text" class="input">
-            </div>
-            <div class="group">
-            <input type="submit" class="button" value="Sign Up">
-            </div>
-        </div>
+    </main>
+    <footer>
+      <div class="container-footer i-x-center i-y-center column-direction">
+        <img src="./img/text.png" alt="logo" width="140" />
+        <p>Copyright © 2022 MIDNIGHT PC SDN BHD. All rights reserved.</p>
       </div>
-    </div>
-  </div>
-</div>
-    
-
-
-
-</body>
-
+    </footer>
+  </body>
+</html>
