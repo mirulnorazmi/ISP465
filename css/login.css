@@ -2,7 +2,7 @@
 
 body#login-bg{
   background-image: linear-gradient(to bottom ,white, white, #3481bf);
-  height: 100vh;
+  height: 100%;
 }
 
 *,:after,:before{box-sizing:border-box}

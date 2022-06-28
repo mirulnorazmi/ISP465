@@ -95,8 +95,7 @@ a.nav-link {
 
 /* Footer */
 footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
   width: 100%;
 }
 .container-footer {
