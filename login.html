@@ -16,8 +16,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+
+   
+
   </head>
-  <body>
+  <body id="login-bg">
     <header class="header sticky-top">
       <nav class="navbar navbar-expand-lg">
         <div class="container" style="width: 100%">
@@ -83,18 +86,18 @@
               <div class="sign-in-htm">
                   <div class="group">
                   <label for="user" class="label">Username</label>
-                  <input id="user" type="text" class="input">
+                  <input id="user" type="text" class="input" name="user" required>
                   </div>
                   <div class="group">
                   <label for="pass" class="label">Password</label>
-                  <input id="pass" type="password" class="input" data-type="password">
+                  <input id="pass" type="password" class="input" name="pass" data-type="password" required>
                   </div>
                   <div class="group">
                   <input id="check" type="checkbox" class="check" checked>
                   <label for="check"><span class="icon"></span> Keep me Signed in</label>
                   </div>
                   <div class="group">
-                  <input type="submit" class="button" value="Sign In">
+                  <input type="submit" class="button" value="Sign In" onclick="signInValidate()">
                   </div>
                   <div class="hr"></div>
                   <div class="foot-lnk">
@@ -104,26 +107,26 @@
               <div class="sign-up-htm">
                   <div class="group">
                   <label for="user" class="label">Username</label>
-                  <input id="user" type="text" class="input">
+                  <input id="upUser" type="text" class="input">
                   </div>
                   <div class="group">
                   <label for="pass" class="label">Password</label>
-                  <input id="pass" type="password" class="input" data-type="password">
+                  <input id="upPass" type="password" class="input" data-type="password">
                   </div>
                   <div class="group">
                   <label for="pass" class="label">Repeat Password</label>
-                  <input id="pass" type="password" class="input" data-type="password">
+                  <input id="pass2" type="password" class="input" data-type="password">
                   </div>
                   <div class="group">
                   <label for="pass" class="label">Email Address</label>
-                  <input id="pass" type="text" class="input">
+                  <input id="email" type="text" class="input">
                   </div>
                   <div class="group">
-                  <input type="submit" class="button" value="Sign Up">
+                  <input type="submit" class="button" value="Sign Up" onclick="signUpValidate()">
                   </div>
                   <div class="hr"></div>
                   <div class="foot-lnk">
-                <label for="tab-1">Already Member?</a>
+                <a href="#member">Already Member?</a>
               </div>
             </div>
           </div>
@@ -136,5 +139,6 @@
         <p>Copyright © 2022 MIDNIGHT PC SDN BHD. All rights reserved.</p>
       </div>
     </footer>
+    <script src="./js/login.js"></script>
   </body>
 </html>
