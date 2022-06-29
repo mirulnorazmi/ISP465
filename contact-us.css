@@ -1,0 +1,150 @@
+/*Made by MUHAMMAD FARHAT NAZMI BIN MOHD RAZALI 2021829874*/
+*, *:before, *:after {
+  font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    
+    background: linear-gradient(to right, #009FFD 0%, #2A2A72 100%);
+    font-size: 12px;
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 1000,
+  'GRAD' 100,
+  'opsz' 48
+}
+
+  .container-background{
+    display: flex;
+    min-height: 100vh;
+    
+  }
+  .container { /* Centered the container */
+    flex: 0 1 1500px;
+    margin: auto;
+    padding: 10px;
+    
+    
+  }
+  .container-screen {
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);/*Shadow code*/
+  }
+  .box-left {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .box-right {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .box{ /* Two box */
+    
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; 
+  }
+
+
+/* Clear floats after the columns */
+  .container:after, .box-title:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .left{
+    
+    width:10%
+    
+  }
+  .right{
+    width: 90%;
+    
+  }
+  .container-body{
+      display: flex;
+  }
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .contactus{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #cbe3ff;
+    font-size: 26px;
+    font-weight: 900;
+  }
+  .division {
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    float: left;
+    padding: 10px;
+    font-weight: 700;
+    height: 300px; /* 2 division 1 box*/
+  }
+
+  .box-form-group {
+    margin-bottom: 15px;
+    
+  }
+  
+  .box-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .box-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .box-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: white;
+    border-radius: 10px;
+    border-bottom: 1px solid #666;
+    color: rgb(76, 24, 219);
+    font-size: 14px;
+    font-weight: 600;
+    transition: border-color .2s;
+  }
+  input[type="text"]{
+    text-transform: uppercase;
+  }
+  
+  .box-form-control::placeholder {
+    color: rgb(94, 18, 235);
+  }
+  
+  .box-form-control:focus {
+    border-bottom-color: rgb(255, 255, 255);
+  }
+  
+  .box-form-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 800;
+  }
+  
+  .box-form-button:hover {
+    color: #5900ff;
+  }
