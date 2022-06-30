@@ -1,10 +1,10 @@
 /*Made by MUHAMMAD FARHAT NAZMI BIN MOHD RAZALI 2021829874*/
-*, *:before, *:after {
+/* *, *:before, *:after {
   font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+  } */
   body {
     
     background: linear-gradient(to right, #009FFD 0%, #2A2A72 100%);
@@ -24,13 +24,12 @@
     min-height: 100vh;
     
   }
-  .container { /* Centered the container */
+  .container {
     flex: 0 1 1500px;
     margin: auto;
     padding: 10px;
-    
-    
   }
+  
   .container-screen {
     position: relative;
     background: #3e3e3e;
