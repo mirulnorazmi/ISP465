@@ -86,6 +86,10 @@ a.nav-link {
 
 /* Modal Container */
 
+.modal-dialog{
+  width: 100%;
+}
+
 .modal-body {
   padding: 0px;
 }

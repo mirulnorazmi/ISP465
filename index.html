@@ -110,7 +110,18 @@
               class="d-block w-100 img-fluid"
               alt="..."
             />
-            <h1 class="midtext">Midnight PC</h1>
+            <div class="middle-container">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                data-bs-whatever=""
+              >
+                <span>Play button here</span>
+              </button>
+              <h1 class="midtext">Midnight PC</h1>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img
@@ -118,7 +129,9 @@
               class="d-block w-100 img-fluid"
               alt="..."
             />
-            <h1 class="midtext">PC Accessories</h1>
+            <div class="middle-container">
+              <h1 class="midtext">PC Accessories</h1>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img
@@ -126,7 +139,9 @@
               class="d-block w-100 img-fluid"
               alt="..."
             />
-            <h1 class="midtext">Premium Components</h1>
+            <div class="middle-container">
+              <h1 class="midtext">Premium Components</h1>
+            </div>
           </div>
         </div>
         <button
@@ -148,6 +163,19 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered i-x-center i-y-center">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>Our PC building video..</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <iframe width="100%" height="500" id="video-hero" src="//www.youtube.com/embed/BL4DCEp7blY?autoplay=1&amp;cc_load_policy=1&amp;controls=1&amp;disablekb=0&amp;enablejsapi=0&amp;fs=1&amp;iv_load_policy=1&amp;loop=0&amp;rel=0&amp;showinfo=1&amp;start=0&amp;wmode=transparent&amp;theme=dark&amp;mute=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" tabindex="-1"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="container-footer i-x-center i-y-center column-direction">
@@ -160,5 +188,24 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        var url = $("#video-hero").attr("src");
+
+        $("#exampleModal").on("hidden.bs.modal", function () {
+          $("#video-hero").attr("src", "");
+        });
+
+        $("#exampleModal").on("show.bs.modal", function () {
+          $("#video-hero").attr("src", url);
+        });
+      });
+    </script>
   </body>
 </html>
