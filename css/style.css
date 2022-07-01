@@ -1,12 +1,34 @@
 @import "framework.css";
 @import "login.css";
 @import "products.css";
+@import "contact-us.css";
 
 :root {
   --blue: #3481bf;
   --white: #ffffff;
   --black: #000000;
   --black2: #222222;
+}
+
+.header h3 {
+  font-size: 1rem;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.header h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #444444;
+  text-transform: uppercase;
 }
 
 /* Width var */
@@ -17,6 +39,10 @@
   xl: 1140px,
   xxl: 1320px
 ); */
+/* utilities */
+.hide {
+  display: none !important;
+}
 
 /* Navbar */
 .header > .navbar {
@@ -86,7 +112,7 @@ a.nav-link {
 
 /* Modal Container */
 
-.modal-dialog{
+.modal-dialog {
   width: 100%;
 }
 
@@ -110,6 +136,9 @@ a.nav-link {
 
 /* Footer */
 footer {
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
   margin-top: auto;
   width: 100%;
 }
