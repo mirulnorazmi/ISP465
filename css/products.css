@@ -96,28 +96,28 @@ a:hover {
 }
 
 .section-products #product-3 .part-1::before {
-  background: url("/img/products/i-1.jpeg") no-repeat center;
+  background: url("/img/products/i-3.jpeg") no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-  background: url("/img/products/i-2.jpeg") no-repeat center;
+  background: url("/img/products/i-4.jpeg") no-repeat center;
   background-size: cover;
 }
 .section-products #product-5 .part-1::before {
-  background: url("/img/products/i-1.jpeg") no-repeat center;
+  background: url("/img/products/i-5.jpeg") no-repeat center;
   background-size: cover;
 }
 .section-products #product-6 .part-1::before {
-  background: url("/img/products/i-2.jpeg") no-repeat center;
+  background: url("/img/products/i-6.jpeg") no-repeat center;
   background-size: cover;
 }
 .section-products #product-7 .part-1::before {
-  background: url("/img/products/i-1.jpeg") no-repeat center;
+  background: url("/img/products/i-7.jpeg") no-repeat center;
   background-size: cover;
 }
 .section-products #product-8 .part-1::before {
-  background: url("/img/products/i-2.jpeg") no-repeat center;
+  background: url("/img/products/i-8.jpeg") no-repeat center;
   background-size: cover;
 }
 

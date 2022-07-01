@@ -133,8 +133,20 @@
                   <div class="hr"></div>
                   <div class="foot-lnk">
                 <a href="#member">Already Member?</a>
+                <p class="toastContent">ll</p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <!-- Toast -->
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast align-items-center text-bg-primary border-0" role="alert" data-bs-config='{"delay":7000}' aria-live="assertive" aria-atomic="true">
+          <div class="d-flex">
+            <div class="toast-body" id="toastContent">
+              <!-- Hello, world! This is a toast message. -->
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
         </div>
       </div>
@@ -151,7 +163,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/login.js"></script>
-    
   </body>
 </html>
 

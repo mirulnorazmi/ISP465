@@ -92,12 +92,23 @@ a.nav-link {
 
 /* Index */
 .middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: absolute;
   text-transform: uppercase;
   top: 50%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
+}
+
+.btn-circle {
+  display:block;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;  
 }
 
 .midtext {
