@@ -15,9 +15,10 @@ a:hover {
   margin: 10px 7px 10px 0;
 }
 
-/* .section-products {
-  padding: 55px 0;
-} */
+.section-products {
+  /* padding: 55px ; */
+  margin-bottom: auto;
+}
 
 .section-products .header {
   margin-bottom: 50px;
